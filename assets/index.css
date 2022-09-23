@@ -20,3 +20,16 @@ body{
     height: 400px;
 }
 
+@media screen and (max-width: 576px){
+    .navbar-text{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .nav-button{
+        font-size: 12px;
+        /* width: 90px;
+        height: 35px; */
+    }
+}
