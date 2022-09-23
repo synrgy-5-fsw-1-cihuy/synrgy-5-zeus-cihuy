@@ -8,23 +8,222 @@
     <link rel="stylesheet" href="assets/index.css">
   </head>
   <body>
-    <!-- <h1>Hello, world!</h1> -->
 
     <!-- nav promo -->
     <section id="nav-promo">
         <nav class="navbar fixed-top bg-light">
             <div class="container-fluid justify-content-center">
                 <span class="navbar-text fw-bold pe-3">
-                    <marquee direction="left" scrollamount="2">
-                        Hei, Ada promo nih! Beli 1 cappuccino gratis brownies satu dus!! Buruan sebelum kehabisan!!
+                    <marquee direction="left" scrollamount="5">
+                        Hei, Ada promo nih! Beli 1 cappuccino gratis 10 bungkus nasi padang!! Buruan sebelum kehabisan!!
                     </marquee>
                 </span>
-                <button class="btn btn-success justify-content-end me-2" type="button">Cek di sini!</button>
+                <button class="btn btn-success justify-content-end me-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Cek di sini!</button>
             </div>
         </nav>
-        
     </section>
 
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            TAPI BO'ONG!!
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- slider jalil -->
+    <section id="slider">
+
+      <div class="container text-center my-2 pt-5">
+        <div class="row">
+          <div class="col">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/1.jpg" class="d-block w-100" alt="img1">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/2.webp" class="d-block w-100" alt="img2">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/3.jpg" class="d-block w-100" alt="img3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      
+      <!-- FAQ -->
+  <section id="#faq">
+    <div class="container my-4" style="padding-top: 50px">
+      <h4 class="fw-semibold" style="margin-bottom: 24px">Frequently Asked Question</h4>
+      <div class="row">
+
+        <div class="col col-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Lorem?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Ipsam praesentium animi inventore placeat voluptate? Fugit, sapiente nesciunt velit
+                  totam quis delectus adipisci repellat sequi repudiandae dicta quasi ducimus, accusantium eius.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Ipsum?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Magni itaque, earum veritatis iste sequi minus dolorem cum quae consequatur
+                  necessitatibus animi culpa, iusto laudantium minima laboriosam impedit recusandae nam veniam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  dolor?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur,
+                  adipisicing elit. Nemo hic laboriosam officiis voluptates quis sequi nisi maxime labore dolores dicta
+                  quos provident totam reiciendis quas, nulla dolorem, temporibus, distinctio voluptatum!
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Sit?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the fourth item's accordion body.</strong> Lorem ipsum, dolor sit amet consectetur
+                  adipisicing elit. Pariatur assumenda quod ipsa repudiandae reprehenderit officiis omnis minima saepe!
+                  Unde iure eligendi a tempore, mollitia dicta possimus provident voluptatibus accusamus maxime?
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Amet
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the fifth item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Aut vel corporis at ex dolor omnis molestiae, repudiandae pariatur cum enim iusto,
+                  dignissimos aspernatur nobis minus magnam amet autem vitae veritatis.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col col-6">
+          <div>
+            <h6 class="text-title text-center">Still have any questions? Contact us to get your answer!</h6>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email Address">
+            </div>
+            <!-- Message input -->
+            <div class="form-outline mb-5">
+              <textarea class="form-control" id="form4Example3" rows="5" placeholder="Message"></textarea>
+            </div>
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+
+      <section id="footer">
+        <div class="container-fluid text-bg-light pt-5 pb-4 px-5">
+          <div class="row justify-content-center">
+            <div class="col-2 first-footer px-5">
+              <p>Promo</p>
+              <p>Our Menu</p>
+              <p>How To</p>
+              <p>FAQ</p>
+            </div>
+            <div class="col-4 second-footer px-5">
+              <p>Heads Up To Our Social Media</p>
+              <div class="second-footer--img">
+                <img src="assets/icon_facebook.png" alt="">
+                <img src="assets/icon_instagram.png" alt="">
+                <img src="assets/icon_twitter.png" alt="">
+                <img src="assets/icon_mail.png" alt="">
+              </div>
+  
+            </div>
+            <div class="col-4 third-footer pe-5">
+              <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+              <p>mycoffeeshop@gmail.com</p>
+              <p>081-233-334-808</p>   
+              <p><b> &copy;Zeus 2022</b></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
   </body>
 </html>
