@@ -16,7 +16,38 @@ body{
     gap: 16px;
 }
 #slider img {
-    width: 500px;
-    height: 400px;
+    width: auto;
+    height: auto;
 }
 
+@media screen and (max-width: 578px) {
+    .faq-text{
+        text-align: center;
+    }
+
+    .formm{
+        margin-top: 50px;
+    }
+
+    .btn{
+        align-items: center;
+        width: 100%;
+    }
+
+    .icon{
+        margin-right: 1rem;
+    }
+
+    .footerr{
+        margin-bottom: 2rem;
+    }
+
+    #slider{
+        margin-top: 5rem;
+    }
+    
+    #exampleModal{
+        
+    }
+
+}

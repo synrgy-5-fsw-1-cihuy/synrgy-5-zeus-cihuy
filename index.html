@@ -10,8 +10,8 @@
   <body>
 
     <!-- nav promo -->
-    <section id="nav-promo">
-        <nav class="navbar fixed-top bg-light">
+    <section id="nav-promo ">
+        <nav class="navbar fixed-top bg-light col-sm-12 col-md-12 col-lg-12">
             <div class="container-fluid justify-content-center">
                 <span class="navbar-text fw-bold pe-3">
                     <marquee direction="left" scrollamount="5">
@@ -24,7 +24,7 @@
     </section>
 
     <!-- modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade col-sm-12" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
@@ -41,19 +41,19 @@
     <!-- slider jalil -->
     <section id="slider">
 
-      <div class="container text-center my-2 pt-5">
+      <div class="container text-center my-2 pt-5 col-sm-12">
         <div class="row">
           <div class="col">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="assets/img/1.jpg" class="d-block w-100" alt="img1">
+                  <img src="assets/img/1.jpg" class="d-block w-100 img-fluid" alt="img1">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/2.webp" class="d-block w-100" alt="img2">
+                  <img src="assets/img/2.webp" class="d-block w-100 img-fluid" alt="img2">
                 </div>
                 <div class="carousel-item">
-                  <img src="assets/img/3.jpg" class="d-block w-100" alt="img3">
+                  <img src="assets/img/3.jpg" class="d-block w-100 img-fluid" alt="img3">
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -69,14 +69,25 @@
         </div>
       </div>
       </section>
+
+       <!-- Jumborton -->
+  <div class="container mt-3">
+    <div class="mt-4 p-5 text-dark rounded" style="background-image: url('assets/img/time-break.jpg') !important;">
+      <h1>Excellent</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat..</p>
+    </div>
+  </div>
+
       
       <!-- FAQ -->
   <section id="#faq">
     <div class="container my-4" style="padding-top: 50px">
-      <h4 class="fw-semibold" style="margin-bottom: 24px">Frequently Asked Question</h4>
+      <h4 class="fw-semibold faq-text" style="margin-bottom: 24px">Frequently Asked Question</h4>
       <div class="row">
 
-        <div class="col col-6">
+        <div class="col-sm-12 col-lg-6">
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -164,7 +175,7 @@
         </div>
 
 
-        <div class="col col-6">
+        <div class="col-md-6 col-sm-12 formm">
           <div>
             <h6 class="text-title text-center">Still have any questions? Contact us to get your answer!</h6>
             <div class="mb-3">
@@ -174,19 +185,20 @@
               <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email Address">
             </div>
             <!-- Message input -->
-            <div class="form-outline mb-5">
+            <div class="form-outline mb-5 col-sm-12">
               <textarea class="form-control" id="form4Example3" rows="5" placeholder="Message"></textarea>
             </div>
             <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-center mb-4">
+            <div class="form-check d-flex justify-content-center mb-4 col-sm-12">
               <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
               <label class="form-check-label" for="form4Example4">
                 Send me a copy of this message
               </label>
             </div>
-
+            <div class="btn-submit">
             <!-- Submit button -->
-            <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+            <button type="submit col-sm-12" class="btn btn-primary btn-block mb-4 ">Send</button>
+          </div>
           </div>
         </div>
       </div>
@@ -198,28 +210,35 @@
       <section id="footer">
         <div class="container-fluid text-bg-light pt-5 pb-4 px-5">
           <div class="row justify-content-center">
-            <div class="col-2 first-footer px-5">
-              <p>Promo</p>
-              <p>Our Menu</p>
-              <p>How To</p>
-              <p>FAQ</p>
-            </div>
-            <div class="col-4 second-footer px-5">
-              <p>Heads Up To Our Social Media</p>
-              <div class="second-footer--img">
-                <img src="assets/icon_facebook.png" alt="">
-                <img src="assets/icon_instagram.png" alt="">
-                <img src="assets/icon_twitter.png" alt="">
-                <img src="assets/icon_mail.png" alt="">
-              </div>
-  
-            </div>
-            <div class="col-4 third-footer pe-5">
+
+
+            <div class="col-lg-4 col-sm-12 third-footer footerr px-5">
               <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
               <p>mycoffeeshop@gmail.com</p>
               <p>081-233-334-808</p>   
               <p><b> &copy;Zeus 2022</b></p>
             </div>
+
+            <div class="col-lg-2 col-sm-12 first-footer footerr px-5">
+              <p>Promo</p>
+              <p>Our Menu</p>
+              <p>How To</p>
+              <p>FAQ</p>
+            </div>
+
+            
+
+            <div class="col-lg-4 col-sm-12 second-footer footerr px-5">
+              <p>Heads Up To Our Social Media</p>
+              <div class="second-footer--img">
+                <img class="icon" src="assets/icon_facebook.png" alt="">
+                <img class="icon" src="assets/icon_instagram.png" alt="">
+                <img class="icon" src="assets/icon_twitter.png" alt="">
+                <img class="icon" src="assets/icon_mail.png" alt="">
+              </div>
+  
+            </div>
+            
           </div>
         </div>
       </section>
