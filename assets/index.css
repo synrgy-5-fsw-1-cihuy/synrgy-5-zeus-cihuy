@@ -1,12 +1,13 @@
-body{
+body {
     background-image: url("../assets/img/bg2.png");
     background-repeat: repeat;
     background-size: 30% 30%;
     /* background-blend-mode: overlay; */
 }
 
-.faq-form-padding{
-    width: 100%; height: 56px; 
+.faq-form-padding {
+    width: 100%;
+    height: 56px;
 }
 .first-footer {
     font-weight: 500;
@@ -19,4 +20,3 @@ body{
     width: 500px;
     height: 400px;
 }
-
